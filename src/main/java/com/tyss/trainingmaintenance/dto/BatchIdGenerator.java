@@ -21,29 +21,7 @@ public class BatchIdGenerator implements IdentifierGenerator {
 
 
 
-//    String prefix = "java";
-//        Connection connection = session.connection();
-//
-//        try {
-//            Statement statement=connection.createStatement();
-//
-//            ResultSet rs=statement.executeQuery("select count(Batch_Code) as Id from Training_Maintenance.Batch_Info");
-//
-//            if(rs.next())
-//            {
-//                int id=rs.getInt(1)+101;
-//                String generatedId =new Integer(id).toString();
-//                System.out.println("Generated Id: " + generatedId);
-//                return generatedId;
-//            }
-//        } catch (SQLException e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        }
-//
-//
-//        return null;
-//    }
+
 
 	static BatchInfo binfo;
 	 

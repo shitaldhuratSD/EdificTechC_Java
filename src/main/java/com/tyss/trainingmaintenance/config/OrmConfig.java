@@ -9,7 +9,7 @@ public class OrmConfig {
 	@Bean
 	public LocalEntityManagerFactoryBean ormConfiguration() {
 		LocalEntityManagerFactoryBean bean=new LocalEntityManagerFactoryBean();
-		bean.setPersistenceUnitName("TrainingMaintenance");
+		bean.setPersistenceUnitName("Edific_Tech_C");
 		return bean;
 	}
 }
